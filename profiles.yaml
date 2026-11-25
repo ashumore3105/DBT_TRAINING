@@ -1,0 +1,13 @@
+dbt_training:
+  outputs:
+    dev:
+      account: OSMDKGU-EH09765
+      database: TRAINING_DB
+      password: Prince1@shutosh
+      role: ACCOUNTADMIN
+      schema: RAW
+      threads: 1
+      type: snowflake
+      user: ASHUMORE3105
+      warehouse: COMPUTE_WH
+  target: dev
